@@ -1,0 +1,137 @@
+
+body{
+   background-color: #0d1117;
+   height: 2000px;
+  
+}
+h1,h2,h3,h4,h5,h6 {
+  color: white;
+  font-family: 'Arial',Georgia;
+  
+}
+p{
+  color: white;
+}
+h5{
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+h2{
+  position: relative;
+  top: 20px;
+  
+}
+h6{
+  position: absolute;
+  top:180px;
+  font-family: 'Arial',Georgia;
+  font-size: 12px;
+}
+#home{
+   font-family: 'Arial',Georgia;
+   color: white;
+   position: absolute;
+   top: 25px;
+   right: 70px;
+   font-size: 14px;
+}
+#about{
+    font-family: 'Arial',Georgia;
+    color: white;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 14px;
+}
+img{
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ img {
+    width: 10%; 
+    height: auto; 
+}
+img{
+  position: absolute;
+  top: 15px;
+  right: 115px;
+}
+b{
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 695px;
+  right: 130px;
+}
+p{
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'IBM Plex Mono',Georgia;
+  position: absolute;
+  top: 980px;
+  right: 5px;
+}
+strong{
+  color: white;
+  font-family: 'IBM Plex Mono',Georgia;
+  font-size: 20px;
+  position: absolute;
+  top: 1200px;
+  right: 70px;
+}
+a{
+  color: white;
+}
+#one{
+   color: white;
+   font-family: 'IBM Plex Mono',Georgia;
+   font-size: 15px;
+   position: absolute;
+   top: 1240px;
+   left: 10px;
+}
+li{
+  color: white;
+  font-family: 'IBM Plex Mono',Georgia;
+  font-size: 12px;
+  position: relative;
+  top: 735px;
+  left: 12px;
+}
+h4{
+    color: lightblue;
+    font-size: 25px;
+    position: absolute;
+    top: 164px;
+    left: 92px;
+    overflow: hidden; /* Ensures the text is hidden initially */
+    border-right: .15em solid black; /* Creates the cursor effect */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    margin: 0 auto; /* Centers the text */
+    letter-spacing: .10em; /* Adds some spacing between the letters */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+  
+  
+  
+
+
