@@ -1,7 +1,7 @@
 
 body{
    background-color: #0d1117;
-   height: 2000px;
+   height: 800px;
   
 }
 h1,h2,h3,h4,h5,h6 {
@@ -28,22 +28,9 @@ h6{
   font-family: 'Arial',Georgia;
   font-size: 12px;
 }
-#home{
-   font-family: 'Arial',Georgia;
-   color: white;
-   position: absolute;
-   top: 25px;
-   right: 70px;
-   font-size: 14px;
-}
-#about{
-    font-family: 'Arial',Georgia;
-    color: white;
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    font-size: 14px;
-}
+
+
+
 img{
     width: 200px; /* Adjust the width as needed */
     height: 200px; /* Adjust the height as needed */
@@ -66,7 +53,7 @@ b{
   color: white;
   font-size: 30px;
   position: absolute;
-  top: 695px;
+  top: 10px;
   right: 130px;
 }
 p{
@@ -83,18 +70,19 @@ strong{
   font-family: 'IBM Plex Mono',Georgia;
   font-size: 20px;
   position: absolute;
-  top: 1200px;
+  top: 480px;
   right: 70px;
 }
-a{
+#download{
   color: white;
+  text-decoration: none;
 }
 #one{
    color: white;
    font-family: 'IBM Plex Mono',Georgia;
    font-size: 15px;
    position: absolute;
-   top: 1240px;
+   top: 520px;
    left: 10px;
 }
 li{
@@ -102,7 +90,7 @@ li{
   font-family: 'IBM Plex Mono',Georgia;
   font-size: 12px;
   position: relative;
-  top: 735px;
+  top: 545px;
   left: 12px;
 }
 h4{
@@ -115,7 +103,7 @@ h4{
     border-right: .15em solid black; /* Creates the cursor effect */
     white-space: nowrap; /* Prevents the text from wrapping */
     margin: 0 auto; /* Centers the text */
-    letter-spacing: .10em; /* Adds some spacing between the letters */
+    letter-spacing: .05em; /* Adds some spacing between the letters */
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
@@ -129,6 +117,14 @@ h4{
 @keyframes blink-caret {
     from, to { border-color: transparent; }
     50% { border-color: black; }
+}
+audio {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+    position: absolute;
+    top: 660px;
+    left: 45px;
 }
   
   
